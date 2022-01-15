@@ -14,7 +14,6 @@ public class DemoSwitch {
         
         switch (chon) {
             case 1:
-                // do something ...
                 System.out.println("Bạn đã qua môn Java 1");
                 break;
                 
