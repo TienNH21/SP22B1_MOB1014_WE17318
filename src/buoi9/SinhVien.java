@@ -7,14 +7,28 @@ public class SinhVien {
     private String maSV;
     private String sdt;
     private String email;
-    private String diaChi;
     private String chuyenNganh;
-    private String queQuan;
 
     public SinhVien() {
         // Đây là hàm khởi tạo - constructor
         // Hàm khởi tạo phải cùng tên với class & KHÔNG có kiểu trả về
         // Hàm khởi tạo sẽ được gọi khi khởi tạo đối tượng
+    }
+    
+    public SinhVien( String hoTen, String maSV, String email, String sdt, String nganh ) {
+        /*
+         * this: truy xuất tới thuộc tính & phương thức của đối tượng 
+         * this.hoTen: truy xuất tới thuộc tính hoTen của đối tượng SinhVien
+         * hoTen: tham số hoTen
+         * Dòng 25: gán giá trị của tham số hoTen vào thuộc tính hoTen của đối tượng sinh viên
+         */
+        this.hoTen = hoTen;
+        this.maSV = maSV;
+        this.sdt = sdt;
+        this.email = email;
+        this.chuyenNganh = nganh;
+        
+        // Lấy giá trị của các tham số, gán vào thuộc tính của đối tượng
     }
 
     // Phương thức
