@@ -47,6 +47,7 @@ public class QLSVPoly {
         System.out.println("4. Tìm SV theo họ tên");
         System.out.println("5. Sửa SV theo họ tên");
         System.out.println("6. Xóa SV theo họ tên");
+        System.out.println("8. Sắp xếp SV theo điểm");
         System.out.println("7. Dừng chương trình");
         System.out.println("---------------------");
     }
@@ -59,6 +60,7 @@ public class QLSVPoly {
         for (int i = 0; i < n; i++) {
             SvPoly sv = new SvPoly();
             sv.nhap();
+            dssv.add(sv);
         }
     }
     

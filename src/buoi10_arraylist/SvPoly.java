@@ -18,7 +18,7 @@ public class SvPoly {
         return hoTen;
     }
 
-    public double getDiemTB() {
+    public Double getDiemTB() {
         return diemTB;
     }
 
